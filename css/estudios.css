@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=DynaPuff:wght@400..700&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    color: aliceblue;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  
+body {
+  margin: 30px;
+  padding: auto;
+  background-image: url(../img/image\ \(1\).jpg);
+  background-size: cover;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+  
+  header {
+    background-color: transparent;
+    padding: 20px 40px;
+    font-family: "Literata", serif;
+
+  }
+
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0 22px;
+    height: fit-content;
+    padding: 0;
+  
+  }
+  
+  nav  .links ul li a{
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 24px;
+    transition: 0.3s;
+    margin: 0;
+  }
+  
+  nav .links ul li a:hover {
+    color: white;
+    padding: 10px 20px;
+    background: #a550ff;
+    border-radius: 20px;
+  }
+  
+  nav .links ul li a.active {
+    color: white !important;
+    padding: 10px 20px;
+    background: #a550ff;
+    border-radius: 20px;
+  }
+  /* Fondo personalizado */
+.bg-dark-purple {
+  background: linear-gradient(135deg, #4B0082, #2C003E);
+}
+
+/* Estilo para las listas de estudios */
+.bg-black {
+  background-color: #000;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.text-purple {
+  color: #6A0DAD;
+}
+
+/* Enlaces activos */
+.nav-link.active {
+  background-color: #6A0DAD;
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #fff;
+}
+
+/* Estilo de las estrellas */
+.text-warning {
+  font-size: 100px;
+  line-height: .99;
+
+}
+
+#contenido{
+  height: 60vh;
+}
+
+#deplegables ul li{
+  margin-bottom: 30px !important;
+}
+
+.size-title{
+  font-size: 32px;
+}
+img{
+  width: 200px;
+  margin-right: 100px;
+}

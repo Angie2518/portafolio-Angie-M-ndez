@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=DynaPuff:wght@400..700&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 30px;
+  padding: auto;
+  background-image: url(../img/image\ \(1\).jpg);
+  background-size: cover;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.container {
+  color: aliceblue;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: transparent;
+  padding: 20px 40px;
+  font-family: "Literata", serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0 22px;
+  height: fit-content;
+  padding: 0;
+
+}
+
+nav  .links ul li a{
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 24px;
+  transition: 0.3s;
+  margin: 0;
+}
+
+nav .links ul li a:hover {
+  color: white;
+  padding: 10px 20px;
+  background: #a550ff;
+  border-radius: 20px;
+}
+
+nav .links ul li a.active {
+  color: white !important;
+  padding: 10px 20px;
+  background: #a550ff;
+  border-radius: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  text-align: left;
+}
+
+.content {
+  max-width: 700px;
+}
+
+.content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  position: relative;
+  font-size: 50px;
+  font-family: "Limelight", sans-serif;
+}
+
+.content h1::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: white;
+  bottom: -30px;
+  font-family: "Limelight", sans-serif;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+button {
+  background-color: #a550ff;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #7a00ff;
+  transform: scale(1.05);
+}
+
+
+.profile-pic img {
+  width: 350px;
+  height: 350px;
+  margin-right: 100px;
+  background-position: center;
+  border-radius: 30px;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border: none;
+ 
+}
+
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 0 20px;
+}
+
+.social-links img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
+
+.profile-img {
+  height: 400px;
+  width: 400px;
+  background: url(../img/foto\ 2.jfif);
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 30px black;
+  margin: 10% 40% !important;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content {
+    margin-bottom: 30px;
+  }
+
+  .profile-pic img {
+    width: 200px;
+    height: 200px;
+  }
+}
